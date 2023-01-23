@@ -19,16 +19,38 @@ a {
 .text__primary {
   color: #fd6e0a;
 }
-.btn__primary {
-  background-color: #fd6e0a;
-  color: #fff;
-  border: 0;
+
+/* Buttons Style Start */
+.btn{
   height: 64px;
   border-radius: 5px;
   font-weight: 700;
   font-size: 20;
   padding: 18px 35px;
+  cursor: pointer;
 }
+.btn__primary {
+   border: 1px solid transparent;
+  background-color: #fd6e0a;
+  color: #fff;
+}
+.btn__primary:hover{
+   background-color: #fff;
+   color: #fd6e0a;
+   border: 1px solid #fd6e0a;
+} 
+.btn__secondary{
+   background-color: transparent;
+   color: #fd6e0a;
+   border: 1px solid #fd6e0a;
+}
+.btn__secondary:hover{
+   background-color: #fd6e0a;
+   color: #fff;
+   border: 1px solid transparent;
+}
+/* Buttons Style End */
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -40,12 +62,18 @@ a {
 /* Universal Styles End */
 
 /* Header Section Styles Start */
-
+.header {
+  background: #fff8f3;
+  background-image: url('../images/header_bg.png'),url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
 /* NavBar Style Start */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 50px 200px;
 }
 nav > ul {
   display: flex;
