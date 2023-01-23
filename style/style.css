@@ -58,7 +58,28 @@ nav > ul > li {
   font-weight: 800;
   font-size: 45px;
 }
-
 /* NavBar Style End */
+
+/* Banner Styles Start */
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+.banner__sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.banner__title {
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+}
+/* Banner Styles End */
 
 /* Header Section Styles End */
