@@ -1,0 +1,64 @@
+/* Universal Styles Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.text__primary {
+  color: #fd6e0a;
+}
+.btn__primary {
+  background-color: #fd6e0a;
+  color: #fff;
+  border: 0;
+  height: 64px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20;
+  padding: 18px 35px;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  padding: 0 20px;
+}
+/* Universal Styles End */
+
+/* Header Section Styles Start */
+
+/* NavBar Style Start */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav > ul > li {
+  margin-left: 50px;
+}
+.nav__title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+/* NavBar Style End */
+
+/* Header Section Styles End */
